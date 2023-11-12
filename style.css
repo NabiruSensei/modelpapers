@@ -1,0 +1,150 @@
+body {
+    background-image: linear-gradient(to top, #9be15d 0%, #00e3ae 100%);
+}
+
+.typecontainer{
+    display: inline-block;
+  }
+
+  div.typedword{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    height: min-content;
+    overflow: hidden;
+    border-right: .18em solid darkslategray;
+    white-space: nowrap;
+    font-size: 1rem;
+    width: 0;
+    animation: 
+    typing 2.8s steps(17, end) forwards;
+    animation-iteration-count: 1;
+    animation-delay: 0.65s;
+    -moz-animation: typing 2.8s steps(17, end) forwards;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-delay: 0.65s;
+    -webkit-animation: typing 2.8s steps(17, end) forwards;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-delay: 0.65s;
+  }
+
+  @keyframes typing {
+    0% { width: 0 }
+    100% { width: 100% }
+  }
+
+  @-moz-keyframes typing { 
+    0% { width: 0 }
+    100% { width: 100% }
+  }
+
+@-webkit-keyframes typing { 
+    0% { width: 0 }
+    100% { width: 100% }
+}
+
+  h1.username {
+    font-family: monospace, sans-serif;
+    font-size: 4vh;
+    color: black;
+}
+
+h1.footername {
+    font-family: monospace, sans-serif;
+    font-size: 4vh;
+    color: black;
+}
+
+
+button.gototen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    width: 5rem;
+    position: fixed;
+    right: 3vw;
+    bottom: 3vw;
+    border: 3px solid black;
+    border-radius: 1000px;
+    animation: 
+    btn 2.8s steps(17, end) forwards;
+    background-image: linear-gradient(to top, #b224ef 0%, #7579ff 100%);
+    font-weight: bolder;
+    font-family: monospace, sans-serif;
+}
+
+button.gototen:hover {
+    transform: scale(1.08);
+    transition-duration: 0.4s;
+    background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);
+}
+
+h1#arrow {
+    font-size: 1.7rem;
+    font-weight: bolder;
+    font-family: monospace, sans-serif;
+}
+
+
+div#ninecontainer {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div#tencontainer {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 70vw;
+    margin: 2vh;
+    border: 2.7px solid black;
+    border-radius: 7px;
+    background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%);
+
+}
+
+a.tenbutton {
+    text-decoration: none;
+}
+
+html { scroll-behavior: smooth; }
+
+a.links {
+    font-size: 1.7rem;
+    font-family: monospace, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Hover effect */
+
+div.links:hover {
+    transform: scale(1.081);
+    transition-duration: 0.25s;
+    background-image: linear-gradient(-225deg, #20E2D7 0%, #F9FEA5 100%);
+}
+
+
+@media only screen and (70px <= width <= 600px) {
+
+div.links {
+    width: 90vw;
+}
+
+}
