@@ -112,8 +112,6 @@ div.links {
     height: 10vh;
     width: 70vw;
     margin: 2vh;
-    font-size: 2.5rem;
-    font-weight: bold;
     border: 2.7px solid black;
     border-radius: 7px;
     background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%);
@@ -143,7 +141,7 @@ div.links:hover {
 }
 
 
-@media only screen and (70px <= width <= 800px) {
+@media only screen and (50px <= width <= 768px) {
 
 div.links {
     width: 90vw;
