@@ -295,5 +295,34 @@ button.gototen {
     right: 1rem;
     bottom: 1em;
 }
+}
+
+@media only screen and (20px <= width <= 500px) {
+
+#loader-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    font-family: monospace, sans-serif;
+    margin-top: 2rem; /* Adjust the spacing between the text and the loader */
+    color: white; /* Set the text color */
+    font-size: 5vh;
+  }
+
+}
+
+@media only screen and (2000px <= width <= 5000px) {
+
+    #loader-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    font-family: monospace, sans-serif;
+    margin-top: 5rem; /* Adjust the spacing between the text and the loader */
+    color: white; /* Set the text color */
+    font-size: 5vh;
+  }
 
 }
