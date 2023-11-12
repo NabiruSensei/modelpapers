@@ -85,8 +85,9 @@ button.gototen {
     height: 5rem;
     width: 5rem;
     position: fixed;
-    right: 3vw;
-    bottom: 4vh;
+    right: 7vw;
+    margin: 0;
+    bottom: 7vh;
     border: 3px solid black;
     border-radius: 1000px;
     animation: 
@@ -104,8 +105,9 @@ button.gotonine {
     height: 5rem;
     width: 5rem;
     position: fixed;
-    right: 3vw;
-    bottom: 18vh;
+    right: 7vw;
+    margin: 0;
+    bottom: 22.5vh;
     border: 3px solid black;
     border-radius: 1000px;
     animation: 
@@ -136,7 +138,7 @@ button.contact {
     justify-content: center;
     align-items: center;
     height: 3rem;
-    width: 20rem;
+    width: 18rem;
     border-radius: 7px;
     border: 2px solid black;
     margin: 2rem;
@@ -205,10 +207,28 @@ div.links:hover {
 }
 
 
-@media only screen and (50px <= width <= 768px) {
+@media only screen and (340px <= width <= 768px) {
 
 div.links {
     width: 90vw;
+}
+
+}
+
+@media only screen and (20px <= width <= 340px) {
+
+div.links {
+    width: 70vw;
+}
+
+button.gotonine {
+    left: 1rem;
+    bottom: 1rem; 
+}
+
+button.gototen {
+    right: 1rem;
+    bottom: 1em;
 }
 
 }
