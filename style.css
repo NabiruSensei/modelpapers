@@ -6,6 +6,71 @@ body {
     -webkit-animation: color 9.5s ease-in-out infinite;
 }
 
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black; /* Set your original background color here */
+    color: white; /* Set the default text color to white */
+    transition: background-color 0.5s, color 0.5s; /* Smooth transitions for background color and text color */
+  }
+  
+  body.loading {
+    background-color: black; /* Set the background color to black during loading when the loading class is present */
+    color: white; /* Set the text color to white during loading when the loading class is present */
+    overflow: hidden; /* Keep overflow hidden during loading */
+  }
+  
+
+  #loader-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150px; /* Adjust the width */
+    height: 150px; /* Adjust the height */
+    background-color: black;
+    border-radius: 10px; /* Adjust the border radius */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+  }
+  
+
+  #loader-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    font-family: monospace, sans-serif;
+    margin-top: 2rem; /* Adjust the spacing between the text and the loader */
+    color: white; /* Set the text color */
+    font-size: 5vh;
+  }
+
+
+  #loader-circle {
+    width: 50px; /* Set the circle's diameter */
+    height: 50px; /* Set the circle's diameter */
+    border: 5px solid white;
+    border-top: 5px solid transparent;
+    border-radius: 50%;
+    animation: rotate 10s linear infinite;
+  }
+  
+  @keyframes rotate {
+    to {
+      transform: rotate(2500deg);
+    }
+  }
+  
+  #content {
+    display: none;
+  }
+  
+  
+
 @keyframes color {
     0% {
         background-position: 0 50%;
@@ -200,7 +265,7 @@ a.links {
 /* Hover effect */
 
 div.links:hover {
-    transform: scale(1.035);
+    transform: scale(1.081);
     transition-duration: 0.25s;
     background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
  background-blend-mode: screen;
@@ -218,7 +283,7 @@ div.links {
 @media only screen and (20px <= width <= 340px) {
 
 div.links {
-    width: 70vw;
+    width: 85vw;
 }
 
 button.gotonine {
