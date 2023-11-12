@@ -140,7 +140,7 @@ button.contact {
     height: 3rem;
     width: 18rem;
     border-radius: 7px;
-    border: 2px solid black;
+    border: none;
     margin: 2rem;
     background-color: transparent;
 }
