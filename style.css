@@ -252,8 +252,6 @@ a.tenbutton {
     text-decoration: none;
 }
 
-html { scroll-behavior: smooth; }
-
 a.links {
     font-size: 1.7rem;
     font-family: monospace, sans-serif;
