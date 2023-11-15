@@ -88,16 +88,6 @@ div.footdiv {
     background-color: transparent;
 }
 
-@media screen and (1200px <= width <= 1700px) {
-
-a.links {
-    font-size: 5vw;
-    font-family: monospace, sans-serif;
-    text-decoration: none;
-    color: black;
-}
-
-}
 
 @media screen and (1200px <= width <= 40000px) {
 
@@ -112,7 +102,7 @@ a.links {
 @media screen and (1000px <= width <= 1200px) {
 
 a.links {
-    font-size: 7vw;
+    font-size: 5vw;
     font-family: monospace, sans-serif;
     text-decoration: none;
     color: black;
@@ -123,7 +113,7 @@ a.links {
 @media screen and (10px <= width <= 1000px) {
 
 a.links {
-    font-size: 7vw;
+    font-size: 6vw;
     font-family: monospace, sans-serif;
     text-decoration: none;
     color: black;
