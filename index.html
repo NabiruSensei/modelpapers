@@ -212,5 +212,26 @@
       <div class="footdiv"><h2 id="email">:-&#41;</h2></div>
     </div>
     </div>
+      <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var loaderContainer = document.getElementById("loader-container");
+        var content = document.getElementById("content");
+        var body = document.body;
+
+        function startLoading() {
+          body.classList.add("loading"); // Add the loading class to the body
+
+          // Simulate a delay (replace this with your actual loading logic)
+          setTimeout(function () {
+            // Hide the loader and display the content
+            loaderContainer.style.display = "none";
+            content.style.display = "block";
+            body.classList.remove("loading"); // Remove the loading class from the body
+          }, 4000); // Adjust the delay as needed
+        }
+
+        startLoading();
+      });
+    </script>
   </body>
 </html>
