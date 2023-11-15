@@ -36,9 +36,9 @@ body {
 
 
   #loader-circle {
-    width: 70px; /* Set the circle's diameter */
-    height: 70px; /* Set the circle's diameter */
-    border: 7px solid white;
+    width: 50px; /* Set the circle's diameter */
+    height: 50px; /* Set the circle's diameter */
+    border: 6.5px solid white;
     border-top: 5px solid transparent;
     border-radius: 50%;
     animation: rotate 10s linear infinite;
