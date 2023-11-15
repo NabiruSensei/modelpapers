@@ -100,6 +100,15 @@ a.links {
 
 }
 
+@media screen and (1200px <= width <= 40000px) {
+
+a.links {
+    font-size: 3vw;
+    font-family: monospace, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
 @media screen and (1000px <= width <= 1200px) {
 
 a.links {
