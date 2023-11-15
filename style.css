@@ -36,7 +36,7 @@ button.btn {
     height: 85%;
     width: 85%;
     background-color: rgb(255, 221, 0);
-    border: 5px solid black;
+    border: 2.85px solid black;
     border-radius: 7px;
     transition: transform 0.2s ease-in-out;
     opacity: 0.8;
