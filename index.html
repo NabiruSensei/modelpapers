@@ -5,186 +5,206 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Model Papers</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Arvo&family=Fira+Sans:wght@500&family=IBM+Plex+Mono:wght@200&family=Nunito&family=Poppins:wght@100&display=swap"
-      rel="stylesheet"
-    />
   </head>
   <body>
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        var loaderContainer = document.getElementById("loader-container");
-        var content = document.getElementById("content");
-        var body = document.body;
-
-        function startLoading() {
-          body.classList.add("loading"); // Add the loading class to the body
-
-          // Simulate a delay (replace this with your actual loading logic)
-          setTimeout(function () {
-            // Hide the loader and display the content
-            loaderContainer.style.display = "none";
-            content.style.display = "block";
-            body.classList.remove("loading"); // Remove the loading class from the body
-          }, 2000); // Adjust the delay as needed
-        }
-
-        startLoading();
-      });
-    </script>
-    <div id="loader-container">
-      <div id="loader-circle"></div>
-    </div>
-    <div id="content">
-      <div id="ninecontainer">
-        <div class="typecontainer">
-          <div class="typedword">
-            <h1 class="username">9th Model Papers</h1>
-          </div>
-        </div>
-        <a
-          class="links"
-          href="https://drive.google.com/file/d/1qF05X2GNSlC1mCSl6ECi3X95OUPgmslP/view?usp=sharing"
-          target="_blank"
-          ><div class="links">Physics</div></a
-        >
-                <a
-          class="links"
-          href="https://drive.google.com/file/d/1u85jrCsDCfu5Q9Z6MKKwn6zmcuwDfCqi/view?usp=sharing"
-          target="_blank"
-          ><div class="links">Maths</div></a
-        >
-        <a
-          class="links"
-          href="https://drive.google.com/file/d/1MG61-u_Y8V1uv2K-hC1kczR7x0LnVhYc/view?usp=sharing"
-          target="_blank"
-          ><div class="links">Computer</div></a
-        >
-        <a
-          class="links"
-          href="https://drive.google.com/file/d/1l6VIVZp5HrvhlXqwffrYLLVDHRPiPlFU/view?usp=sharing"
-          target="_blank"
-          ><div class="links">Chemistry</div></a
-        >
-        <a
-          class="links"
-          href="https://drive.google.com/file/d/1oXmUEmXMhIL3aeUJ951tmsNc4BqcBNSN/view?usp=sharing"
-          target="_blank"
-          ><div class="links">Biology</div></a
-        >
-        <a
-          class="links"
-          href="https://drive.google.com/file/d/13EFFlivr-eKSQoKTl1rx3qSlMDO6zhQv/view?usp=sharing"
-          target="_blank"
-          ><div class="links">Pak-Studies</div></a
-        >
-        <a
-          class="links"
-          href="https://drive.google.com/file/d/1AwuLkvoazhjKHKt2OvGtDg1wUnzlDy7v/view?usp=sharing"
-          target="_blank"
-          ><div class="links">English</div></a
-        >
-        <a
-          class="links"
-          href="https://drive.google.com/file/d/1ILBF-mrbWkCAUDpwzSzCL6pVynArHgkU/view?usp=sharing"
-          target="_blank"
-          ><div class="links">Urdu</div></a
-        >
-        <a
-          class="links"
-          href="https://drive.google.com/file/d/1mp7niYRFjfAzkWbJsIFKPNLBulya9jam/view?usp=sharing"
-          target="_blank"
-          ><div class="links">Islamiyat</div></a
-        >
-        <a class="tenbutton" href="#ninecontainer"
-          ><button class="gotonine"><h1 id="arrow">9th</h1></button></a
-        >
-
-        <a class="tenbutton" href="#ninecontainer"
-          ><button class="gotonine"><h1 id="arrow">9th</h1></button></a
-        >
-
-        <!-- 10th -->
-      </div>
-      <div id="tencontainer">
-        <div class="typecontainer">
-          <div class="typedword">
-            <h1 class="username">10th Model Papers</h1>
-          </div>
-        </div>
-        <a
-          class="links"
-          href="https://drive.google.com/file/d/1Sb2Umt0E1MphevIqbOKdUwV1RTgZuA35/view?usp=sharing"
-          target="_blank"
-          ><div class="links">Maths</div></a
-        >
-        <a
-          class="links"
-          href="https://drive.google.com/file/d/19JA_Pk3De9yfpVFUZqcFixldqgNVheT5/view?usp=sharing"
-          target="_blank"
-          ><div class="links">Physics</div></a
-        >
-        <a
-          class="links"
-          href="https://drive.google.com/file/d/1hAdfI8vEdU9EvtZi3wg4B6I-DjzQGhVb/view?usp=sharing"
-          target="_blank"
-          ><div class="links">Computer</div></a
-        >
+    <div class="container">
+      <h1 class="name">9th Model Papers</h1>
+      <div class="gridcontainernine">
+        <div class="item">
+          <button class="btn">
             <a
-          class="links"
-          href="https://drive.google.com/file/d/1xb4noBwI4xA8-joirDjy3givMaK_yxYB/view?usp=sharing"
-          target="_blank"
-          ><div class="links">Biology</div></a
-        >
-        <a
-          class="links"
-          href="https://drive.google.com/file/d/1tk2I1PNBd7p832wOgxhT3R8OZYoUw_2p/view?usp=sharing"
-          target="_blank"
-          ><div class="links">Chemistry</div></a
-        >
-    
-        <a
-          class="links"
-          href="https://drive.google.com/file/d/1JjNDFs7K8g_jdB-I2ytMoxqbs5ZX9s1R/view?usp=sharing"
-          target="_blank"
-          ><div class="links">Pak-Studies</div></a
-        >
-        <a
-          class="links"
-          href="https://drive.google.com/file/d/1uU9oZ6TYGs4-lYmUdi3GhzI7qrPY4MY0/view?usp=sharing"
-          target="_blank"
-          ><div class="links">English</div></a
-        >
-        <a
-          class="links"
-          href="https://drive.google.com/file/d/1Yo_ACkFJlCMrB8Hl-3qWaqpgEwP3IMzK/view?usp=sharing"
-          target="_blank"
-          ><div class="links">Urdu</div></a
-        >
-        <a
-          class="links"
-          href="https://drive.google.com/file/d/14LP_m2TckxSy0_8YGAaIVqQ0WzBAFf6E/view?usp=sharing"
-          target="_blank"
-          ><div class="links">Islamiyat-NEW</div></a
-        >
-        <a
-          class="links"
-          href="https://drive.google.com/file/d/1_g9s7rCb1iWqot0iGDXOFdMa6g8ob-Cr/view?usp=sharing"
-          target="_blank"
-          ><div class="links">Islamiyat-OLD</div></a
-        >
-        <a class="contactlink" href="mailto:nabeelsadiq2023@gmail.com">
-          <button class="contact">
-            <h1 class="footerusername">nabeelsadiq2023@gmail.com</h1>
+              class="links"
+              href="https://drive.google.com/file/d/1u85jrCsDCfu5Q9Z6MKKwn6zmcuwDfCqi/view?usp=sharing"
+              target="_blank"
+              ><div class="links">Math</div></a
+            >
           </button>
-        </a>
-
-        <a class="tenbutton" href="#tencontainer"
-          ><button class="gototen"><h1 id="arrow">10th</h1></button></a
-        >
+        </div>
+        <div class="item">
+          <button class="btn">
+            <a
+              class="links"
+              href="https://drive.google.com/file/d/1qF05X2GNSlC1mCSl6ECi3X95OUPgmslP/view?usp=sharing"
+              target="_blank"
+              ><div class="links">Phys</div></a
+            >
+          </button>
+        </div>
+        <div class="item">
+          <button class="btn">
+            <a
+              class="links"
+              href="https://drive.google.com/file/d/1MG61-u_Y8V1uv2K-hC1kczR7x0LnVhYc/view?usp=sharing"
+              target="_blank"
+              ><div class="links">Comp</div></a
+            >
+          </button>
+        </div>
+        <div class="item">
+          <button class="btn">
+            <a
+              class="links"
+              href="https://drive.google.com/file/d/1l6VIVZp5HrvhlXqwffrYLLVDHRPiPlFU/view?usp=sharing"
+              target="_blank"
+              ><div class="links">Chem</div></a
+            >
+          </button>
+        </div>
+        <div class="item">
+          <button class="btn">
+            <a
+              class="links"
+              href="https://drive.google.com/file/d/1oXmUEmXMhIL3aeUJ951tmsNc4BqcBNSN/view?usp=sharing"
+              target="_blank"
+              ><div class="links">Bio</div></a
+            >
+          </button>
+        </div>
+        <div class="item">
+          <button class="btn">
+            <a
+              class="links"
+              href="https://drive.google.com/file/d/13EFFlivr-eKSQoKTl1rx3qSlMDO6zhQv/view?usp=sharing"
+              target="_blank"
+              ><div class="links">P-St</div></a
+            >
+          </button>
+        </div>
+        <div class="item">
+          <button class="btn">
+            <a
+              class="links"
+              href="https://drive.google.com/file/d/1AwuLkvoazhjKHKt2OvGtDg1wUnzlDy7v/view?usp=sharing"
+              target="_blank"
+              ><div class="links">Eng</div></a
+            >
+          </button>
+        </div>
+        <div class="item">
+          <button class="btn">
+            <a
+              class="links"
+              href="https://drive.google.com/file/d/1ILBF-mrbWkCAUDpwzSzCL6pVynArHgkU/view?usp=sharing"
+              target="_blank"
+              ><div class="links">Urdu</div></a
+            >
+          </button>
+        </div>
+        <div class="item">
+          <button class="btn">
+            <a
+              class="links"
+              href="https://drive.google.com/file/d/1mp7niYRFjfAzkWbJsIFKPNLBulya9jam/view?usp=sharing"
+              target="_blank"
+              ><div class="links">Isl</div></a
+            >
+          </button>
+        </div>
       </div>
+      <h1 class="name">10th Model Papers</h1>
+      <div class="gridcontainerten">
+        <div class="item">
+          <button class="btn ten">
+            <a
+              class="links"
+              href="https://drive.google.com/file/d/1Sb2Umt0E1MphevIqbOKdUwV1RTgZuA35/view?usp=sharing"
+              target="_blank"
+              ><div class="links">Math</div></a
+            >
+          </button>
+        </div>
+        <div class="item">
+          <button class="btn ten">
+            <a
+              class="links"
+              href="https://drive.google.com/file/d/19JA_Pk3De9yfpVFUZqcFixldqgNVheT5/view?usp=sharing"
+              target="_blank"
+              ><div class="links">Phys</div></a
+            >
+          </button>
+        </div>
+        <div class="item">
+          <button class="btn ten">
+            <a
+              class="links"
+              href="https://drive.google.com/file/d/1hAdfI8vEdU9EvtZi3wg4B6I-DjzQGhVb/view?usp=sharing"
+              target="_blank"
+              ><div class="links">Comp</div></a
+            >
+          </button>
+        </div>
+        <div class="item">
+          <button class="btn ten">
+            <a
+              class="links"
+              href="https://drive.google.com/file/d/1tk2I1PNBd7p832wOgxhT3R8OZYoUw_2p/view?usp=sharing"
+              target="_blank"
+              ><div class="links">Chem</div></a
+            >
+          </button>
+        </div>
+        <div class="item">
+          <button class="btn ten">
+            <a
+              class="links"
+              href="https://drive.google.com/file/d/1xb4noBwI4xA8-joirDjy3givMaK_yxYB/view?usp=sharing"
+              target="_blank"
+              ><div class="links">Bio</div></a
+            >
+          </button>
+        </div>
+        <div class="item">
+          <button class="btn ten">
+            <a
+              class="links"
+              href="https://drive.google.com/file/d/1JjNDFs7K8g_jdB-I2ytMoxqbs5ZX9s1R/view?usp=sharing"
+              target="_blank"
+              ><div class="links">P-St</div></a
+            >
+          </button>
+        </div>
+        <div class="item">
+          <button class="btn ten">
+            <a
+              class="links"
+              href="https://drive.google.com/file/d/1uU9oZ6TYGs4-lYmUdi3GhzI7qrPY4MY0/view?usp=sharing"
+              target="_blank"
+              ><div class="links">Eng</div></a
+            >
+          </button>
+        </div>
+        <div class="item">
+          <button class="btn ten">
+            <a
+              class="links"
+              href="https://drive.google.com/file/d/1Yo_ACkFJlCMrB8Hl-3qWaqpgEwP3IMzK/view?usp=sharing"
+              target="_blank"
+              ><div class="links">Urdu</div></a
+            >
+          </button>
+        </div>
+        <div class="item">
+          <button class="btn ten">
+            <a
+              class="links"
+              href="https://drive.google.com/file/d/14LP_m2TckxSy0_8YGAaIVqQ0WzBAFf6E/view?usp=sharing"
+              target="_blank"
+              ><div class="links">🆕Isl</div></a
+            >
+          </button>
+        </div>
+        <div class="item">
+          <button class="btn ten">
+            <a
+              class="links"
+              href="https://drive.google.com/file/d/1_g9s7rCb1iWqot0iGDXOFdMa6g8ob-Cr/view?usp=sharing"
+              target="_blank"
+              ><div class="links">Isl</div></a
+            >
+          </button>
+        </div>
+      </div>
+      <div class="footdiv"><h2 id="email">:-&#41;</h2></div>
     </div>
   </body>
 </html>
