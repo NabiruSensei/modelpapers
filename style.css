@@ -108,6 +108,7 @@ a.links {
     text-decoration: none;
     color: black;
 }
+}
 
 @media screen and (1000px <= width <= 1200px) {
 
